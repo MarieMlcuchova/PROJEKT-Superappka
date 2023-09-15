@@ -17,7 +17,7 @@ body {
 	padding: 0;
 	margin: 0;
 	background-color: #e5e5e5;
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: 'Source Sans 3', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
@@ -31,3 +31,99 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 10px 0;
+}
+
+li {
+	padding: 10px 0;
+}
+
+a {
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.menu__item:hover {
+	background-color: #484190;
+	color: #FFFFFF;
+	padding: 10px 0;
+}
+
+.menu {
+	margin-left: 20px;
+}
+
+.superappka {
+	font-weight: bold;
+}
+
+.banner {
+	text-align: center;
+	color: #FFFFFF;
+	background-image: url(images/pozadi.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.banner__title {
+	font-size: 60px;
+	font-weight: 400;
+	margin: 0;
+	padding: 20px;
+}
+
+.banner__text {
+	font-size: 36px;
+	font-weight: 300;
+}
+
+.button__wrapper {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	padding: 20px;
+}
+
+.banner__button {
+	font-size: 20px;
+	padding: 15px;
+	margin: 5px;
+	color: #FFFFFF;
+	background-color: #484190;
+	border: #FFFFFF solid 1px;
+	border-radius: 10%;
+	flex: 50%;
+}
+
+.banner__image {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.main_content {
+	margin: 20px;
+	text-align: center;
+}
+
+.main_content__image {
+	width: 50px;
+	height: 50px;
+}
+
+.main_content__title {
+	color: #484190;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+footer {
+	background-color: #484190;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 5px 0;
+}
